@@ -6,10 +6,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         // String url =
         // "https://api.nasa.gov/planetary/apod?api_key=jPARZgxn9D6y8F2Cd2SQ4DEwm35UQRnqV8grHAI8&start_date=2022-07-19&end_date=2022-07-22";
-        // ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
+        // ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
 
         String url = "https://api.mocki.io/v2/549a5d8b";
-        ExtratorDeConteudoDoIMDB extrator = new ExtratorDeConteudoDoIMDB();
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
