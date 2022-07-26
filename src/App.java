@@ -11,7 +11,7 @@ public class App {
         // String url = "https://api.mocki.io/v2/549a5d8b";
         // ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
-        String url = "http://localhost:8080/linguagens";
+        String url = "https://beatriz-java-api.herokuapp.com/linguagens";
         ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
         
 
